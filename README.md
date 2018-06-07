@@ -1,2 +1,2 @@
-# ReuseDKEN
-Reuse hjemmeside med mulighed for engelsk
+# reuse
+Reuse - 2.semester

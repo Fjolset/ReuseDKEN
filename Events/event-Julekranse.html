@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>REUSE</title>
+    <link rel="stylesheet" type="text/css" href="../css/styleAlex.css">
+    <link rel="stylesheet" type="text/css" href="../css/styleMathias.css">
+    <meta name="viewport" content="width=device-width, inistial-scale=1.0">
+    <meta name="description" content="">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/javascript.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="up-logo"><a href="../index.html"><img src="../image/REUSE-Logo.svg" alt="logo"></a></div>
+        <img class="up-headerBillede" src="../image/Header-Byg-en-kalk.svg" alt="om reuse">
+        <img class="up-ikon" src="../image/Event-hvid.svg" alt="icon">
+        <h1 class="up-h1 up-spes">Julekranse og <br> JuleDekorationer</h1>
+        <!---- Desktop menu ---->
+        <nav id="desktopmenu">
+            <ul class="desk-menu">
+                <a href="../index.html">
+                    <li class="dsk-mp">Forside</li>
+                </a>
+                <a href="../event.html">
+                    <li class="dsk-mp">Event</li>
+                </a>
+                <a href="../skole.html">
+                    <li class="dsk-mp">Skole</li>
+                </a>
+                <a href="../besog.html">
+                    <li class="dsk-mp">Besøg</li>
+                </a>
+                <a href="../om.html">
+                    <li class="dsk-mp">Om REUSE</li>
+                </a>
+            </ul>
+        </nav>
+
+
+        <!---- Mobil menu ---->
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+
+                <!--
+    jeg bruger span som hamburgerlinjerne
+    -->
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="skole.html">Skole</a></li>
+                    <li><a href="besog.html">Besøg</a></li>
+                    <li><a class="button" href="om.html">Om REUSE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+<section>
+    <h2 class="uep-h2"> Jule stemning i REUSE </h2>
+    <p class="uep-tekst">HO HO HO. Julen nærmer sig og derfor tilbød vi folk at komme ned og lave deres julekranse og juledekorationer. Julen sidst var noget for sig selv, mængden af genbrug der kom hjem i folks stuer, er ubeskrivelig. Så næste jul er vores mål at den mængde skal være endnu større så kom ned næste gang til vores Jule arrangement.
+    </p>
+</section>
+<div class="row">
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+    <div class="column flex">
+        <img src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="julekranse">
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">7 / 7</div>
+            <img src="../image/billeder/Event-placeholder.png" style="width:100%" alt="julekranse">
+        </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="overlays">
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+        </div>
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+        </div>
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(5)" alt="Northern Lights">
+        </div>
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+        </div>
+        <div class="column overlay">
+            <img class="demo cursor" src="../image/billeder/Event-placeholder.png" style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div>
+        <img src="../image/Footer.svg" alt="footer">
+
+        <div class="fp-footer-desk">
+
+            <div class="fp-footer-tid">
+
+                <p class="fp-footer-tid-p">Alle dage 12-17 <br> også weekender og helligdage</p>
+
+                <img class="fp-footer-tid-ikon" src="../image/Ur-hvid.svg" alt="info icon">
+
+            </div>
+
+            <div class="fp-footer-telefon">
+
+                <p class="fp-footer-telefon-p">Mobil: 41 85 79 76</p>
+
+                <img class="fp-footer-telefon-ikon" src="../image/Telefon-hvid.svg" alt="info icon">
+
+            </div>
+
+            <div class="fp-footer-placering">
+
+                <p class="fp-footer-placering-p">AffaldVarme Aarhus <br> Skovgårdsgade 5G <br> 8000 Aarhus</p>
+
+                <img class="fp-footer-placering-ikon" src="../image/Placering-hvid.svg" alt="info icon">
+
+            </div>
+
+            <img class="fp-footer-logo-desk" src="../image/Arhus-Logo-hvid.svg" alt="info icon">
+        </div>
+
+    </div>
+    <div class="fp-footer-section">
+        <div class="fp-footer-wrapper">
+
+            <div class="footer-tid">
+                <div class="footer-ikon1">
+                    <img src="../image/Ur-hvid.svg" alt="info icon">
+                </div>
+
+                <div class="footer-tekst1">
+                    <p>Alle dage <br> 12-17</p>
+                </div>
+            </div>
+
+            <div class="footer-mobil">
+                <div class="footer-ikon2">
+                    <img src="../image/Telefon-hvid.svg" alt="info icon">
+                </div>
+
+                <div class="footer-tekst2">
+                    <p>Mobil: 41 85 79 76</p>
+                </div>
+            </div>
+
+            <div class="footer-palcering">
+                <div class="footer-ikon3">
+                    <img src="../image/Placering-hvid.svg" alt="info icon">
+                </div>
+
+                <div class="footer-tekst3">
+                    <p>AffaldVarme Aarhus <br> Skovgårdsgade 5G <br> 8000 Aarhus C</p>
+                </div>
+            </div>
+
+            <div class="fp-logo-aarhus">
+                <img class="fp-aarhus-logo" src="../image/Arhus-Logo-hvid.svg" alt="info icon">
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+</html>
