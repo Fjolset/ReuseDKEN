@@ -73,6 +73,11 @@ h2 {
     font-family: Raleway;
 }
 
+.flagDK
+{
+    display: none;
+}
+
 body {
     margin: 0%;
 
@@ -825,6 +830,8 @@ p
         background-color: darkred;
         
         text-align: center;
+        
+        display: block;
     }
 
     .fp-headerBillede {
