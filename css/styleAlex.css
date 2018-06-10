@@ -84,6 +84,11 @@ body {
     display: none;
 }
 
+.ENFlagMobile
+{
+    width: 15%;
+}
+
 .fp-logo {
     float: left;
 
@@ -827,11 +832,16 @@ p
         
         margin-right: 3.5%;
         
-        background-color: blue;
+        background-color: transparent;
         
         text-align: center;
         
         display: block;
+    }
+    
+    .ENflagIcon
+    {
+        width: 60%;
     }
 
     .fp-headerBillede {
@@ -864,8 +874,6 @@ p
         background-color: transparent;
 
         color: white;
-
-        font-size: 20px;
 
         text-align: left;
     }
