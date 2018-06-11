@@ -425,6 +425,7 @@ section {
 .bp-tekst {
 
     width: 80%;
+    padding: 10px;
     height: auto;
     margin-left: 10%;
     margin-bottom: 2%;
@@ -880,31 +881,27 @@ margin-top: 2%;
         margin-left: 3%;
         margin-bottom: 2%;
     }
-
-    .sp-billede {
-
-        width: 30%;
-        height: auto;
-        margin-top: -15%;
-        margin-left: 50%;
-        margin-bottom: 15%;
-        overflow: hidden;
-    }
+    
     .sp-knap {
         background-color: #00747e;
+        position: absolute;
+        z-index: 3;
         padding-top: 15px;
+        padding-left: 15px;        
         float: left;
-        width: 10%;
+        width: 13%;
         font-size: 24px;
         color: white;
         border-radius: 15px;
         height: 50px;
-        margin-left: 4%;
-        margin-bottom: 2%;
+        margin-left: 50%;
+        margin-top: -15%;
     }
 
     .sp2 {
-        margin-left: 12%;
+        width: 7%;
+        padding-right: 5px;
+        margin-left: 35%;
     }
 
     /* ------- Fivilig --------- */
@@ -966,34 +963,47 @@ margin-top: 2%;
     
      .bp-h2 {
         margin-top: 2%;
+        margin-left: 6%;
         width: 32%;
     }
     .bp-tekst {
         width: 30%;
+        background-color: lightgray;
         height: auto;
-        margin-left: 10%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        margin-left: -15%;
+        padding-left: 30%;
         margin-bottom: 2%;
+        border-top-right-radius: 55px;
+        border-bottom-right-radius: 55px;
     }
     .th{
-        margin-left: 50%;
+        margin-left: 38%;
+        padding-left: 2%;
+        padding-right: 32%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 55px;
+        border-bottom-left-radius: 55px;
     }
     .th2{
-        margin-left: 40.5%;
+        margin-left: 30.5%;
     }
     
     .bp-billede {
         width: 30%;
-        height: auto;
-        margin-top: -19%;
-        margin-left: 50%;
+        height: 300px;
+        margin-top: -22.3%;
+        margin-left: 52%;
         margin-bottom: 5%;
         overflow: hidden;
     }
     .tv{
-        margin-left: 10%;
+        margin-left: 2%;
     }
     .tn{
-        margin-left: 10%;
+        margin-left: 9%;
         margin-bottom: 10%;
     }
     .tc {
@@ -1213,4 +1223,48 @@ margin-top: 2%;
         text-align: center;
     }
     
+    /* --------------------- rettelser til de forskellige undersider -----------------*/
+    
+    .stv{
+        margin-top: -27%;
+    }
+    .stc{
+        margin-bottom: 20%;
+    }
+    .sp-i{
+        display: block;
+    }
+    
+.smobil-info1 {
+    order: 2;
+
+    margin-left: 0%;
+
+    text-align: center;
+}
+
+.smobil-info2 {
+    order: 1;
+
+    margin-left: 0%;
+
+    text-align: center;
+}
+
+.smobil-info3 {
+    order: 3;
+
+    margin-left: 0%;
+
+    text-align: center;
+
+}
+    .s-wrapper{
+        margin-left: 27.5%;
+        margin-bottom: 2%;
+        margin-top: -10%;
+    }
+    .sp-ib{
+        margin-top: 9%;
+    }
 }
