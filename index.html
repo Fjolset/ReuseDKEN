@@ -322,7 +322,7 @@ var bar = new ProgressBar.Circle(container, {
   strokeWidth: 4,   
   trailWidth: 1,
   easing: 'easeInOut',
-  duration: 4200,
+  duration: 5200,
   text: {
     autoStyleContainer: false
   },
@@ -333,11 +333,11 @@ var bar = new ProgressBar.Circle(container, {
     circle.path.setAttribute('stroke', state.color);
     circle.path.setAttribute('stroke-width', state.width);
 
-    var value = Math.round(circle.value() * 183952);
+    var value = Math.round(circle.value() * 3952);
     if (value === 0) {
       circle.setText('');
     } else {
-      circle.setText("Tons affald    "+ value );
+      circle.setText("Tons affald       siden Januar      " + value );
     }
 
   }
@@ -361,7 +361,7 @@ $(window).on('resize scroll', function() {
       var activeColor = $(this).attr('id');
     if ($(this).isInViewport()) {
       $('#fixed-' + activeColor).addClass(activeColor + '-active');
-        bar.animate(0.75);  // Number from 0.0 to 1.0
+        bar.animate(0.65);  // Number from 0.0 to 1.0
         
     } else {
       $('#fixed-' + activeColor).removeClass(activeColor + '-active');
