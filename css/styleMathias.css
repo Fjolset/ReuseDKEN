@@ -621,6 +621,9 @@ p {
     text-align: left;
 }
 
+.kknap{
+    margin-left: 5%;
+}
 /*NORMAL DESKTOP*/
 
 @media (min-width: 1024px) {
@@ -843,8 +846,10 @@ margin-top: 2%;
         z-index: 3;
     }
     .mmobil-knap{
-        width: 80%;
-        margin-left: -27%;
+        position: absolute;
+        z-index: 2;
+        width: 35%;
+        margin-left: -12%;
     }
 
     /* ----------------------------------EVENT---------------------------*/
@@ -1279,4 +1284,16 @@ margin-top: 2%;
     .sp-sect{
         margin-bottom: 8%;
     }
+    .mobil-knap {
+    position: absolute;
+    z-index: 1;
+    margin-left: -2.3%;
 }
+
+.kknap {
+    width: 18%;
+margin-left: -1.5%;
+}
+}
+
+
