@@ -965,7 +965,9 @@ margin-top: 2%;
      .bp-h2 {
         margin-top: 2%;
         margin-bottom: -6%;
-        margin-left: -4%;
+        margin-left: 2.7%;
+         font-size: 20px;
+         
         width: 32%;
     }
     .bp-tekst {
@@ -999,7 +1001,7 @@ margin-top: 2%;
     .bp-billede {
         width: 30%;
         height: 300px;
-        margin-top: -24.5%;
+        margin-top: -22.5%;
         margin-left: 52%;
         margin-bottom: 5%;
         overflow: hidden;
@@ -1243,7 +1245,6 @@ margin-top: 2%;
     
 .smobil-info1 {
     order: 2;
-
     margin-left: 0%;
 
     text-align: center;
@@ -1251,8 +1252,10 @@ margin-top: 2%;
 
 .smobil-info2 {
     order: 1;
-
-    margin-left: 0%;
+    width: 23%;
+    margin-left: -3%;
+    margin-right: -5.2%;
+    margin-top: -4.4%;
 
     text-align: center;
 }
