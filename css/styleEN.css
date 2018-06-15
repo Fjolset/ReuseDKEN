@@ -806,7 +806,7 @@ p
 
     .fp-logo {
         width: 20%;
-
+        margin-top: 5%;
         margin-left: 10%;
 
         position: absolute;
@@ -882,7 +882,7 @@ p
     .fp-boxes {
         background-color: transparent;
 
-        margin-top: 15%;
+        margin-top: 14%;
         
         height: 300px;
 
