@@ -158,7 +158,7 @@ body {
     margin-top: -10%;
     margin-bottom: 2%;
 
-    height: 151px;
+    height: 150px;
 }
 
 .fp-box {
@@ -202,8 +202,6 @@ body {
     width: 100%;
     height: 20%;
 
-    margin-top: 30%;
-
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
@@ -214,8 +212,6 @@ body {
     width: 100%;
     height: 20%;
 
-    margin-top: 65%;
-
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
@@ -225,8 +221,6 @@ body {
 .per3 {
     width: 100%;
     height: 20%;
-
-    margin-top: 44%;
 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -811,7 +805,7 @@ p
     body {}
 
     .fp-logo {
-        width: 26%;
+        width: 20%;
 
         margin-left: 10%;
 
@@ -866,9 +860,9 @@ p
     }
 
     .fp-tekst-wrapper {
-        width: 25%;
+        width: 30%;
 
-        margin-left: 12%;
+        margin-left: 10%;
         margin-top: 14.5%;
 
         background-color: transparent;
@@ -882,7 +876,7 @@ p
     
     .fp-tekst
     {
-        font-size: 0.9vw;
+        font-size: 1.2vw;
     }
 
     .fp-boxes {
@@ -897,7 +891,7 @@ p
     .fp-box {
         width: 23%;
 
-        height: 340px;
+        height: 230px;
     }
     
     .fp-box-tekst
@@ -914,8 +908,6 @@ p
         width: 100%;
         height: 20%;
 
-        margin-top: 15%;
-
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
 
@@ -926,7 +918,6 @@ p
         width: 100%;
         height: 20%;
 
-        margin-top: 34%;
 
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -937,8 +928,6 @@ p
     .per3 {
         width: 100%;
         height: 20%;
-
-        margin-top: 21.5%;
 
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
@@ -994,9 +983,10 @@ p
     
     .fp-downArrow
     {
+        position: absolute;
         margin-top: -20%;
+        margin-left: -3%;
         
-        float: right;
     }
 
     /* INFOGRAPFIK */
