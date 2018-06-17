@@ -153,7 +153,7 @@ body {
     width: 100%;
     z-index: 0;
     margin-top: -60%;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
     height: 470px;
 }
 
@@ -194,7 +194,7 @@ body {
 
 .per {
     width: 100%;
-    height: 34px;
+    height: 40px;
 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -240,11 +240,13 @@ body {
 }
 
 .fp-box-overskrift1 {
+    color: black;
     font-size: 2.8vw;
     margin-top: 5px;
 }
 
 .fp-box-overskrift2 {
+    color: black;
     font-size: 2.8vw;
     margin-top: 10px;
 }
@@ -875,28 +877,7 @@ p
 
     .per {
         width: 100%;
-        height: 20%;
-
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-
-        background-color: #00747E;
-    }
-    
-    .per2 {
-        width: 100%;
-        height: 20%;
-
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-
-        background-color: #00747E;
-    }
-    
-    .per3 {
-        width: 100%;
-        height: 20%;
-
+        height: 23%;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
 
